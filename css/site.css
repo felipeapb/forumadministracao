@@ -61,7 +61,7 @@
   .l{ height: 171px; line-height: 171px; width: 50%;text-decoration: none; color:#fff; background-size: 100% !important; text-align: center;  -webkit-transition: 0.8s display: block; float: left;
       transition: 0.8sfont-size: 1.2em;overflow: hidde;text-decoration: none;}
   .l:hover{ background-size: 110% !important; background-position: center; text-decoration: none; color:#fc0; font-size: 1.3em;height: 171px; line-height: 171px; overflow: hidden; -webkit-transition: 0.8s
-      transition: 0.8s
+      transition: 0.8s;
     }
     .logo img{width:90%;}
     .logo {
