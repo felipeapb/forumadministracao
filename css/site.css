@@ -6,35 +6,35 @@
 .logo img{width:90%;}
 .livro img{width:90%;}
 .col-md-2{ padding: 2px;}
-.l{ height: 171px; line-height: 171px; text-decoration: none; color:#fff; background-size: 100% !important; text-align: center;  -webkit-transition: 0.5s;
-    transition: 0.5s;font-size: 1.2em;overflow: hidde;text-decoration: none;}
-.l:hover{ background-size: 110% !important; background-position: center; text-decoration: none; color:#fc0; font-size: 1.3em;height: 171px; line-height: 171px; overflow: hidden; -webkit-transition: 0.5s;
-    transition: 0.5s;
+.l{ height: 171px; line-height: 171px; text-decoration: none; color:#fff; background-size: 100% !important; text-align: center;  -webkit-transition: 0.8s
+    transition: 0.8sfont-size: 1.2em;overflow: hidde;text-decoration: none;}
+.l:hover{ background-size: 110% !important; background-position: center; text-decoration: none; color:#fc0; font-size: 1.3em;height: 171px; line-height: 171px; overflow: hidden; -webkit-transition: 0.8s
+    transition: 0.8s
 
 
   }
   .l:visited{ text-decoration: none; color:#fff;}
 .l:first-child{ line-height: 90px;}
-  .ls{background:#684134 url(../img/0.png) no-repeat;     -webkit-transition: 0.5s;
-      transition: 0.5s;}
-  .l1{background:#684134 url(../img/1.png) no-repeat;    -webkit-transition: 0.5s;
-      transition: 0.5s; }
-  .l2{background:#684134 url(../img/2.png) no-repeat;    -webkit-transition: 0.5s;
-      transition: 0.5s; }
-  .l3{background:#684134 url(../img/3.png) no-repeat;    -webkit-transition: 0.5s;
-      transition: 0.5s; }
-  .l4{background:#684134 url(../img/4.png) no-repeat;     -webkit-transition: 0.5s;
-      transition: 0.5s;}
-  .l5{background:#684134 url(../img/5.png) no-repeat;    -webkit-transition: 0.5s;
-      transition: 0.5s; }
+  .ls{background:#684134 url(../img/0.png) no-repeat;     -webkit-transition: 0.8s
+      transition: 0.8s}
+  .l1{background:#684134 url(../img/1.png) no-repeat;    -webkit-transition: 0.8s
+      transition: 0.8s }
+  .l2{background:#684134 url(../img/2.png) no-repeat;    -webkit-transition: 0.8s
+      transition: 0.8s }
+  .l3{background:#684134 url(../img/3.png) no-repeat;    -webkit-transition: 0.8s
+      transition: 0.8s }
+  .l4{background:#684134 url(../img/4.png) no-repeat;     -webkit-transition: 0.8s
+      transition: 0.8s}
+  .l5{background:#684134 url(../img/5.png) no-repeat;    -webkit-transition: 0.8s
+      transition: 0.8s }
 
 
 
 @media screen and (max-width: 600px) {
-  .l{ height: 171px; line-height: 171px; width: 50%;text-decoration: none; color:#fff; background-size: 100% !important; text-align: center;  -webkit-transition: 0.5s; display: block; float: left;
-      transition: 0.5s;font-size: 1.2em;overflow: hidde;text-decoration: none;}
-  .l:hover{ background-size: 110% !important; background-position: center; text-decoration: none; color:#fc0; font-size: 1.3em;height: 171px; line-height: 171px; overflow: hidden; -webkit-transition: 0.5s;
-      transition: 0.5s;
+  .l{ height: 171px; line-height: 171px; width: 50%;text-decoration: none; color:#fff; background-size: 100% !important; text-align: center;  -webkit-transition: 0.8s display: block; float: left;
+      transition: 0.8sfont-size: 1.2em;overflow: hidde;text-decoration: none;}
+  .l:hover{ background-size: 110% !important; background-position: center; text-decoration: none; color:#fc0; font-size: 1.3em;height: 171px; line-height: 171px; overflow: hidden; -webkit-transition: 0.8s
+      transition: 0.8s
     }
     .logo img{width:90%;}
     .logo {
@@ -58,10 +58,10 @@
 }
 }
 @media screen and (min-width: 601px) and (max-width: 992px) {
-  .l{ height: 171px; line-height: 171px; width: 50%;text-decoration: none; color:#fff; background-size: 100% !important; text-align: center;  -webkit-transition: 0.5s; display: block; float: left;
-      transition: 0.5s;font-size: 1.2em;overflow: hidde;text-decoration: none;}
-  .l:hover{ background-size: 110% !important; background-position: center; text-decoration: none; color:#fc0; font-size: 1.3em;height: 171px; line-height: 171px; overflow: hidden; -webkit-transition: 0.5s;
-      transition: 0.5s;
+  .l{ height: 171px; line-height: 171px; width: 50%;text-decoration: none; color:#fff; background-size: 100% !important; text-align: center;  -webkit-transition: 0.8s display: block; float: left;
+      transition: 0.8sfont-size: 1.2em;overflow: hidde;text-decoration: none;}
+  .l:hover{ background-size: 110% !important; background-position: center; text-decoration: none; color:#fc0; font-size: 1.3em;height: 171px; line-height: 171px; overflow: hidden; -webkit-transition: 0.8s
+      transition: 0.8s;
     }
     .logo img{width:90%;}
     .logo {
