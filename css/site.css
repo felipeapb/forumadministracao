@@ -14,8 +14,11 @@ body{font-family: 'Open Sans', sans-serif; }.barra_topo{  position: absolute; z-
 
 
   }
-  .thumbs{    position: absolute;    bottom: -48px;    width: 100%;    z-index: 30;}
-  .linha_rodape{    position: absolute;    bottom: 122px;    z-index: 50;}
+  .thumbs{       position: absolute;
+    bottom: -88px;
+    width: 100%;
+    z-index: 30;}
+  .linha_rodape{    position: absolute;    bottom: 82px;    z-index: 50;}
   .l:visited{ text-decoration: none; color:#fff; text-align: center}
 .l:first-child{ line-height: 90px;}
   .ls{background:#684134 url(../img/0.png) no-repeat;     -webkit-transition: 0.8s;
@@ -64,14 +67,14 @@ body{font-family: 'Open Sans', sans-serif; }.barra_topo{  position: absolute; z-
 }
 .linha_rodape {
     position: absolute;
-    bottom: 462px;
+    bottom: 402px;
     z-index: 50;
 }
 .texto_chamada{ display: none;}
 .texto_mobile{ display: block; background-color: #8C2300; color: #fff;padding: 15px; font-size: 1.0em}
 .thumbs {
     position: absolute;
-    bottom: -180px;
+    bottom: -240px;
     width: 100%;
     z-index: 30;
 
@@ -104,12 +107,11 @@ body{font-family: 'Open Sans', sans-serif; }.barra_topo{  position: absolute; z-
     width: 25%;
     margin-left: 25%;
 }
-.linha_rodape {
-    position: absolute;
-    bottom: 219px;
-    z-index: 50;
-
-}
+.thumbs{       position: absolute;
+  bottom: -150px;
+  width: 100%;
+  z-index: 30;}
+.linha_rodape{    position: absolute;    bottom: 120px;    z-index: 50;}
 
 }
 
