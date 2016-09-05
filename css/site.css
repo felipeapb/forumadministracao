@@ -1,9 +1,9 @@
 
-body{font-family: 'Open Sans', sans-serif; }.barra_topo{  position: absolute; z-index: 20; width: 100%; background: url(../img/barra_superior.png); height: 6px;}
+body{font-family: 'Open Sans', sans-serif; overflow: hidden}.barra_topo{  position: absolute; z-index: 20; width: 100%; background: url(../img/barra_superior.png); height: 6px;}
 .layer{ position: absolute; width: 100%; height:100%;background: url(../img/fundo.png);opacity:0.4;filter: alpha(opacity=40);-moz-opacity:0.4; z-index: 1;    margin-top: -5px;}
-.livro{         position: absolute;    z-index: 10;    margin-top: -18%;    top: 50%;    left: 50%;    height: 70%;    width: 25%;    margin-left: 7%;}
+.livro{         position: absolute;    z-index: 10;    margin-top: -25%;    top: 50%;    left: 50%;    height: 70%;    width: 25%;    margin-left: 7%;}
 .video{position: relative; overflow: hidden; }
-.logo{ position: absolute;    z-index: 10; top:50%; left:50%;    width: 40%; margin-left: -30%; margin-top: -14%; }
+.logo{ position: absolute;    z-index: 10; top:50%; left:50%;    width: 40%; margin-left: -30%; margin-top: -20%; }
 .logo img{width:90%;}
 .livro img{width:90%;}
 .col-md-2{ padding: 2px;}
@@ -14,11 +14,14 @@ body{font-family: 'Open Sans', sans-serif; }.barra_topo{  position: absolute; z-
 
 
   }
-  .thumbs{       position: absolute;
-    bottom: -88px;
+  .thumbs{
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    z-index: 30;}
-  .linha_rodape{    position: absolute;    bottom: 82px;    z-index: 50;}
+    z-index: 30;
+
+  }
+  .linha_rodape{      position: fixed;    bottom: 171px;    z-index: 50;}
   .l:visited{ text-decoration: none; color:#fff; text-align: center}
 .l:first-child{ line-height: 90px;}
   .ls{background:#684134 url(../img/0.png) no-repeat;     -webkit-transition: 0.8s;
@@ -35,7 +38,7 @@ body{font-family: 'Open Sans', sans-serif; }.barra_topo{  position: absolute; z-
       transition: 0.8s }
 
 
-.texto_chamada{ width: 400px; margin: auto;  color:#fff; text-align: center; line-height: 1.8em}
+.texto_chamada{ width: 510px; margin: auto;  color:#fff; text-align: center; line-height: 1.8em}
 .texto_mobile{ display: none}
 
 
@@ -67,51 +70,54 @@ body{font-family: 'Open Sans', sans-serif; }.barra_topo{  position: absolute; z-
 }
 .linha_rodape {
     position: absolute;
-    bottom: 402px;
+    bottom: 535px;
     z-index: 50;
 }
 .texto_chamada{ display: none;}
 .texto_mobile{ display: block; background-color: #8C2300; color: #fff;padding: 15px; font-size: 1.0em}
 .thumbs {
     position: absolute;
-    bottom: -240px;
+      bottom: -140px;
     width: 100%;
     z-index: 30;
 
 }
+body{ overflow: auto;}
 }
 @media screen and (min-width: 601px) and (max-width: 992px) {
   .l{border:1px solid #A5786B; height: 90px; line-height: 90px; width: 50%;text-decoration: none; color:#fff; background-size: 100% !important; text-align: center;  -webkit-transition: 0.8s; display: block; float: left;
       transition: 0.8s;font-size: 1.2em;overflow: hidde;text-decoration: none;}
-
+body{ overflow: auto;}
   .l:hover{ background-size: 110% !important; background-position: center; text-decoration: none; color:#fc0; font-size: 1.3em;height: 90px; line-height: 90px; overflow: hidden; -webkit-transition: 0.8s;
       transition: 0.8s;
     }
     .logo img{width:90%;}
     .logo {
-    position: absolute;
-    z-index: 10;
-    top: 50%;
-    left: 50%;
-    width: 60%;
-    margin-left: -30%;
-    margin-top: -14%;
+      position: absolute;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        width: 60%;
+        margin-left: -45%;
+        margin-top: -26%;
 }
 .livro {
-    position: absolute;
-    z-index: 10;
-    margin-top: -8%;
-    top: 50%;
-    left: 50%;
-    height: 70%;
-    width: 25%;
-    margin-left: 25%;
+  position: absolute;
+      z-index: 10;
+      margin-top: -8%;
+      top: 30%;
+      left: 50%;
+      height: 70%;
+      width: 25%;
+      margin-left: 15%;
 }
-.thumbs{       position: absolute;
-  bottom: -150px;
-  width: 100%;
-  z-index: 30;}
-.linha_rodape{    position: absolute;    bottom: 120px;    z-index: 50;}
+.thumbs{      position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 30;
+    margin-top: -100px;
+  }
+.linha_rodape{    position: absolute;    bottom: 270px;    z-index: 50;}
 
 }
 
